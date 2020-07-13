@@ -1,0 +1,8 @@
+.nav-ad {
+  position: fixed;
+  width: 100%;
+  height: 140px;
+  bottom: 0px;
+  background-color: peachpuff;
+  z-index: 2;
+}

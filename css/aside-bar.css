@@ -1,0 +1,73 @@
+.aside-bar {
+  position: fixed;
+  width: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ececed;
+  padding: 40px 0px 30px 0px;
+  border-right: 1px solid #e6e6e6;
+  z-index: 2;
+}
+
+.link-list__link {
+  margin-bottom: 30px;
+}
+
+.aside-bar__icon {
+  color: #b9babd;
+  font-size: 22px;
+  position: relative;
+}
+
+.aside-bar__icon:hover {
+  color: #acadb1;
+}
+
+.aside-bar__icon.clicked {
+  color: #343740;
+}
+
+.icon__badge {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #ff5442;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  left: 17px;
+  top: -2px;
+}
+
+.option__icon {
+  cursor: pointer;
+}
+
+.aside-bar__option-list {
+  margin-bottom: 140px;
+}
+
+.option-list__option {
+  margin-top: 5px;
+}
+
+.option__icon {
+  color: #89898a;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option__icon:hover {
+  background-color: #dadada;
+}
