@@ -3,6 +3,7 @@
 @import "friends.css";
 @import "aside-bar.css";
 @import "ad.css";
+@import "big-screen.css";
 
 * {
   box-sizing: border-box;
