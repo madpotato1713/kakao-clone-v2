@@ -12,27 +12,99 @@
     <title>FRIENDS | KAKAO CLONE V2</title>
   </head>
   <body>
-    <aside class="aside-bar">
-      <ul class="aside-bar__link-list link-list">
-        <li class="link-list__link">
-          <a href="index.html" class="aside-bar__icon">
-            <i class="fas fa-user"></i>
-          </a>
-        </li>
-        <li class="link-list__link">
-          <a href="chat.html" class="aside-bar__icon">
-            <i class="fas fa-comment"></i>
-          </a>
-        </li>
-        <li class="link-list__link">
-          <a href="more.html" class="aside-bar__icon">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
+    <div class="kakao">
+      <aside class="aside-bar">
+        <ul class="aside-bar__link-list link-list">
+          <li class="link-list__link">
+            <a href="index.html" class="aside-bar__icon icon">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+          <li class="link-list__link">
+            <a href="chat.html" class="aside-bar__icon icon">
+              <div class="icon__badge">4</div>
+              <i class="fas fa-comment"></i>
+            </a>
+          </li>
+          <li class="link-list__link">
+            <a href="more.html" class="aside-bar__icon icon clicked">
+              <div class="icon__badge">N</div>
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="aside-bar__option-list option-list">
+          <li class="option-list__option">
+            <div class="option__icon">
+              <i class="far fa-smile"></i>
+            </div>
+          </li>
+          <li class="option-list__option">
+            <div class="option__icon">
+              <i class="far fa-bell"></i>
+            </div>
+          </li>
+          <li class="option-list__option">
+            <div class="option__icon">
+              <i class="fas fa-cog"></i>
+            </div>
+          </li>
+        </ul>
+      </aside>
       <main class="main">
-        <header class="main__header">더보기</header>
+        <header class="main__header header">
+          <ul class="header__btn-list btn-list">
+            <li class="btn-list__btn">
+              <i class="fas fa-minus"></i>
+            </li>
+            <li class="btn-list__btn">
+              <i class="far fa-square"></i>
+            </li>
+            <li class="btn-list__btn">
+              <i class="fas fa-times"></i>
+            </li>
+          </ul>
+          <div class="header__top">
+            <span class="header__text">더보기</span>
+          </div>
+        </header>
+        <div class="main__chat-box">
+          <div class="main__profile profile">
+            <img
+              src="images/kristoff.jpeg"
+              class="profile__pic-large pic-large"
+            />
+            <div class="profile__text-box">
+              <div class="profile__name">KRISTOFF</div>
+              <div class="profile__comment">kristoff@frozen.disney</div>
+            </div>
+          </div>
+        </div>
       </main>
-    </aside>
+    </div>
+    <nav class="nav-ad ad">
+      <div class="ad__panel1">
+        <div class="ad__panel1-img">
+          <div class="ad__text">NOMAD CODERS!</div>
+          <div class="ad__text">YOU CAN DO IT!</div>
+        </div>
+      </div>
+      <div class="ad__panel2">
+        <div class="ad__panel2-img">
+          <div class="ad__text1">통과하고 싶어요~</div>
+        </div>
+      </div>
+    </nav>
+    <div class="big-screen">
+      <span class="big-screen__icon">
+        <i class="fas fa-caret-right"></i>
+      </span>
+      <span class="big-screen__text">
+        Sometimes small one beats big one
+      </span>
+      <span class="big-screen__icon">
+        <i class="fas fa-caret-left"></i>
+      </span>
+    </div>
   </body>
 </html>
