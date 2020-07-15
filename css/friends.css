@@ -27,6 +27,7 @@
 .btn-list__btn {
   margin-left: 12px;
   cursor: pointer;
+  color: black;
 }
 
 .header__top {
@@ -131,6 +132,7 @@
 
 .profile__text-box {
   margin-left: 15px;
+  color: black;
 }
 
 .profile__name {
