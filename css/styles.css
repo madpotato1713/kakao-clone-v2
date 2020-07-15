@@ -11,6 +11,7 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  color: black;
 }
 
 html,
@@ -26,4 +27,30 @@ body {
   width: 100%;
   /* height: 100%; */
   display: flex;
+}
+
+.profile__two {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.profile__two .pic-small {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.profile__two .pic-small.front {
+  box-sizing: content-box;
+  right: 0px;
+  bottom: 2px;
+  z-index: 1;
+  border: 2px solid white;
+}
+
+.profile__two .pic-small.back {
+  left: 0px;
+  top: 2px;
 }
