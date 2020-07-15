@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/9f63544154.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CONVERSATION | KAKAO CLONE V2</title>
+  </head>
+  <body>
+    <div class="kakao">
+      <header class="conversation__header header conversation">
+        <ul class="header__btn-list btn-list">
+          <li class="btn-list__btn">
+            <i class="fas fa-minus"></i>
+          </li>
+          <li class="btn-list__btn">
+            <i class="far fa-square"></i>
+          </li>
+          <li class="btn-list__btn btn">
+            <a href="chat.html" class="btn__back">
+              <i class="fas fa-times"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="conversation__top">
+          <div class="header__personal personal">
+            <img src="images/anna.jpg" class="profile__pic-small pic-small" />
+            <div class="personal__box">
+              <div class="personal__box__name">ANNA</div>
+              <div class="personal__box__icon-list">
+                <a href="#" class="personal__box__icon">
+                  <i class="fas fa-archive"></i>
+                </a>
+                <div class="personal__vertical"></div>
+                <a href="#" class="personal__box__icon">
+                  <i class="fas fa-search"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <span class="conersation-top__icons">
+            <a href="#" class="conversation-top__icon">
+              <div class="div">
+                <i class="fas fa-bell"></i>
+              </div>
+            </a>
+            <a href="#" class="conversation-top__icon">
+              <div class="div">
+                <i class="fas fa-bars"></i>
+              </div>
+            </a>
+          </span>
+        </div>
+      </header>
+      <main class="conversation__main">
+        <div class="conversation__timestamp">- 2020년 7월 13일 월요일 -</div>
+        <div class="conversation__send">
+          <div class="conversation__box__comment send">
+            <span class="comment__text">That's good idea!</span>
+          </div>
+        </div>
+        <div class="conversation__receive">
+          <img src="images/anna.jpg" class="profile__pic-small pic-small" />
+          <div class="conversation__box">
+            <div class="conversation__box__name">ANNA</div>
+            <div class="conversation__box__comment receive">
+              <span class="comment__text">That's good idea!</span>
+            </div>
+          </div>
+        </div>
+        <textarea name="textarea" class="conversation__input input"> </textarea>
+        <div class="input__send">전송</div>
+        <div class="input__icons">
+          <a href="#" class="input__icon">
+            <i class="far fa-smile"></i>
+          </a>
+          <a href="#" class="input__icon">
+            <i class="fas fa-paperclip"></i>
+          </a>
+          <a href="#" class="input__icon">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a href="#" class="input__icon">
+            <i class="far fa-calendar-check"></i>
+          </a>
+        </div>
+      </main>
+    </div>
+    <div class="big-screen">
+      <span class="big-screen__icon">
+        <i class="fas fa-caret-right"></i>
+      </span>
+      <span class="big-screen__text">
+        Sometimes small one beats big one
+      </span>
+      <span class="big-screen__icon">
+        <i class="fas fa-caret-left"></i>
+      </span>
+    </div>
+  </body>
+</html>
